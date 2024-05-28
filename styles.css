@@ -1,0 +1,41 @@
+
+/* Styling for the chessboard */
+#chessboard {
+    display: flex;
+    flex-wrap: wrap;
+margin-top:16px;
+margin-left:27%;
+    width: 620px;
+    height: 620px;
+align-items:center;
+justify-content:center;
+}
+
+.square {
+    width: 76.5px;
+    height: 76.5px;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.knight {
+    font-size: 60px;
+    color: #000;
+    line-height: 50px
+    text-align: center;
+    cursor: pointer;
+  
+ 
+
+
+}
+
+.highlight {
+    background-color: #7cb9e8; /* Blue highlight color */
+}
